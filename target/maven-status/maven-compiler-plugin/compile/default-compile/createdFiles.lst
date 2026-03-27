@@ -1,0 +1,4 @@
+com\example\chatbot\ChatbotApplication.class
+com\example\chatbot\Message.class
+com\example\chatbot\WebhookController.class
+com\example\chatbot\BotResponse.class
