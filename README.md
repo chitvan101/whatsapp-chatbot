@@ -63,12 +63,3 @@ src/
         ├── Message.java              ← Incoming message model
         └── BotResponse.java          ← Reply model
 ```
-
-## Deploy on Render (Bonus)
-
-1. Push this project to GitHub
-2. Go to https://render.com and sign up
-3. Click "New Web Service" → connect your GitHub repo
-4. Set build command: `mvn clean package -DskipTests`
-5. Set start command: `java -jar target/chatbot-0.0.1-SNAPSHOT.jar`
-6. Click Deploy!
